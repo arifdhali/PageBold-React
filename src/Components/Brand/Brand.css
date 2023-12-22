@@ -1,0 +1,15 @@
+.brands_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands_list_img {
+    width: 10.5%;
+}
+
+.brands_list_img img {
+    max-width: 100%;
+    object-fit: contain;
+    height: 45px;    
+}

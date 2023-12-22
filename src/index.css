@@ -3,6 +3,7 @@
 :root {
 
   --font-family: 'Poppins', sans-serif;
+  --color-primary: #fff;
   --color-font: #102a43;
   --color-font-sky: #41b3ff;
   --gradient-bar: linear-gradient(180deg, #eff8ff 0%, #EFF8FF00 95%);
@@ -15,4 +16,29 @@ a {
 
 li {
   list-style-type: none;
+}
+
+
+.btn-glow {
+  width: 200px;
+  height: 55px;
+  font-weight: 500;
+  color: #fff;
+  background: linear-gradient(130deg, #f538fe 0%, #6996fd 100%);
+  border: 0;
+  border-radius: 50px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+  margin: 1.5rem auto 1rem auto;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.btn-signup {
+  background: linear-gradient(130deg, #f538fe 0%, #6996fd 100%);
+  border-radius: 50px;
+  width: 120px;
+  padding: .5rem 1rem;
+  display: inline-block;
 }

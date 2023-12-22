@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import { Footer, Header, Communication, Members } from "./Container";
-import { Navbar } from "./Components";
+import { Navbar, Brand } from "./Components";
 const App = () => {
   return (
     <>
@@ -10,6 +10,7 @@ const App = () => {
           <Navbar />
           <Header />
         </div>
+        <Brand />
         <Communication />
         <Members />
         <Footer />

@@ -8,6 +8,7 @@
 body {
   color: var(--color-font);
   font-family: var(--font-family);
+  overflow-x: hidden;
 }
 
 

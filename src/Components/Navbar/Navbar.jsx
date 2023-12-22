@@ -33,7 +33,7 @@ const Navbar = () => {
         <a href="" className="btn ">
           Login
         </a>
-        <a href="" className="btn btn-primary">
+        <a href="" className="btn-signup">
           Sign up
         </a>
       </div>
