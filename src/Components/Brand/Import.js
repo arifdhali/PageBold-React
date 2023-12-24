@@ -6,6 +6,7 @@ import hongkiat from "../../assets/hongkiat.webp";
 import hubspot from "../../assets/hubspot.webp";
 import sitepoint from "../../assets/sitepoint.webp";
 import webappers from "../../assets/webappers.webp";
+import promoVideo from "../../assets/promo.mp4";
 
 
 export {
@@ -16,5 +17,6 @@ export {
     hongkiat,
     hubspot,
     sitepoint,
-    webappers
+    webappers,
+    promoVideo
 }

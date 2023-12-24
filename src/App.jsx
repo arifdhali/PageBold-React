@@ -1,6 +1,12 @@
 import React from "react";
 import "./App.css";
-import { Footer, Header, Communication, Members } from "./Container";
+import {
+  Footer,
+  Header,
+  Communication,
+  Members,
+  Ready_made,
+} from "./Container";
 import { Navbar, Brand } from "./Components";
 const App = () => {
   return (
@@ -11,6 +17,7 @@ const App = () => {
           <Header />
         </div>
         <Brand />
+        <Ready_made />
         <Communication />
         <Members />
         <Footer />
