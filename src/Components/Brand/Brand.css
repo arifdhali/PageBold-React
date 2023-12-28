@@ -1,15 +1,30 @@
+.promo {
+    max-width: 1000px;
+    margin: -15% auto 0 auto;
+}
+
+.promo video {
+    max-width: 100%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
 .brands_list {
+    margin-top: 1rem;    
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .brands_list_img {
-    width: 10.5%;
+    width: 106px;
 }
 
 .brands_list_img img {
     max-width: 100%;
     object-fit: contain;
-    height: 45px;    
+    height: 45px;
 }

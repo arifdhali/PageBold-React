@@ -9,12 +9,16 @@ import {
   hubspot,
   sitepoint,
   webappers,
+  promoVideo,
 } from "./Import.js";
 const Brand = () => {
   return (
     <>
-      <div className="brand">
-        <div className="container text-center">
+      <div className="brand padding_b">
+        <div className="promo">
+          <video src={promoVideo} loop autoPlay muted></video>
+        </div>
+        <div className="container mt-5 text-center">
           <small>Featured in:</small>
 
           <div className="brands_list ">
