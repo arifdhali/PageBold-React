@@ -3,7 +3,7 @@ import "./App.css";
 import {
   Footer,
   Header,
-  Communication,
+  Faq,
   Members,
   Ready_made,
 } from "./Container";
@@ -18,7 +18,7 @@ const App = () => {
         </div>
         <Brand />
         <Ready_made />
-        <Communication />
+        <Faq />
         <Members />
         <Footer />
       </div>

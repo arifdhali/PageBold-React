@@ -16,7 +16,7 @@ const Header = () => {
           Creating a high-converting landing page can be time-consuming and
           expensive, but not with our easy-to-use WordPress theme. With just a
           few clicks, you can have a stunning and professional landing page that
-          will capture your audience’s attention and turn them into loyal
+          will capture your audience's attention and turn them into loyal
           customers.
         </p>
         <div className="btm-area">
@@ -29,4 +29,3 @@ const Header = () => {
 };
 
 export default Header;
-

@@ -1,0 +1,12 @@
+.faq_content {
+    width: 70%;
+    margin: auto;
+}
+
+h4 {
+    padding: 25px 0px 25px 0px;
+    font-size: 19px;
+    font-weight: 500;
+    margin: 0;
+    position: relative;
+}
