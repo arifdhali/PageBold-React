@@ -1,13 +1,14 @@
-.ready-made-templates .top h2{
-    margin: 2rem 0;
+.ready-made-templates .top h2 {
+    margin: 1rem 0 2rem 0;
     font-weight: 700;
 
 }
+
 .template_items {
-text-align: left;
+    text-align: left;
 }
 
-.template_items img{
+.template_items img {
     max-width: 100%;
     border-radius: 8px;
     -webkit-border-radius: 8px;

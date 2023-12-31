@@ -17,7 +17,7 @@ import {
 const Ready_made = () => {
   return (
     <div className="ready-made-templates padding_t padding_b">
-      <div className="container text-center">
+      <div className="padding_lr text-center">
         <small className="pink-text ">Ready-Made Templates</small>
         <div className="top">
           <h2>
@@ -30,7 +30,7 @@ const Ready_made = () => {
           </p>
         </div>
 
-        <div className="template_items row padding_t">
+        <div className="template_items gy-4 row padding_t">
           <div className="col-md-4">
             <img src={business} alt="business" />
             <h4>Business </h4>

@@ -1,0 +1,17 @@
+.ads-content {
+    max-width: 600px;
+}
+
+.btn-area button,
+p {
+    margin: 0;
+}
+
+.btn-area p {
+    margin: 0 2rem;
+}
+
+.ads-content .btn-area {
+    display: flex;
+    align-items: center;
+}

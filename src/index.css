@@ -42,19 +42,20 @@ h4 {
 
 
 .btn-glow {
-  width: 200px;
+  min-width: 200px;
+  padding: 0 2rem;
   height: 55px;
   font-weight: 500;
   color: #fff;
   background: linear-gradient(130deg, #f538fe 0%, #6996fd 100%);
   border: 0;
-  border-radius: 50px;
+  border-radius: 200px;
   box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
   margin: 1.5rem auto 1rem auto;
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  -ms-border-radius: 50px;
-  -o-border-radius: 50px;
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+  -ms-border-radius: 200px;
+  -o-border-radius: 200px;
 }
 
 .btn-signup {
@@ -75,4 +76,9 @@ h4 {
 
 .padding_b {
   padding-bottom: 60px;
+}
+
+.padding_lr {
+  padding-left: 7vw;
+  padding-right: 7vw;
 }
