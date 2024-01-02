@@ -31,7 +31,7 @@ p {
 }
 
 .btn-area button:not(.btn-glow) {
-    border: 3px solid var(--color-primary);
+    border: 2px solid var(--color-primary);
     color: var(--color-primary);
     background: transparent;
     min-width: 200px;
@@ -41,4 +41,8 @@ p {
     -moz-border-radius: 100px;
     -ms-border-radius: 100px;
     -o-border-radius: 100px;
+}
+
+.btn-area button:hover:not(.btn-glow) {
+    border: 2px solid var(--color-font-sky);
 }

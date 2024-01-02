@@ -56,6 +56,17 @@ h4 {
   -moz-border-radius: 200px;
   -ms-border-radius: 200px;
   -o-border-radius: 200px;
+  transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -ms-transition: all .4s ease;
+  -o-transition: all .4s ease;
+}
+
+.btn-glow:hover,
+.btn-signup:hover {
+  background: linear-gradient(130deg, #6996fd 0%, #f538fe 100%);
+
 }
 
 .btn-signup {
