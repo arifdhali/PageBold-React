@@ -7,19 +7,7 @@
     overflow: auto;
 }
 
-.faq_item.open .faq-content {
-    height: 100%;
 
-}
-
-.faq-content {
-    height: 0;
-    transition: all .4s ease;
-    -webkit-transition: all .4s ease;
-    -moz-transition: all .4s ease;
-    -ms-transition: all .4s ease;
-    -o-transition: all .4s ease;
-}
 
 .faq_container {
     width: 70%;

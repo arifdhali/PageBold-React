@@ -32,7 +32,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="col-md-3">
-            <h5>Resources</h5>
+            <h5>Pages</h5>
             <ul>
               <li>
                 <a href="">Page Builder</a>
@@ -52,7 +52,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="col-md-2">
-            <h5>Resources</h5>
+            <h5>Locations</h5>
             <ul>
               <li>
                 <a href="">Page Builder</a>
